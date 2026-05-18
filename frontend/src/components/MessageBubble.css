@@ -1,0 +1,18 @@
+.bubble-wrap { display: flex; gap: 8px; animation: fadeIn 0.25s ease; }
+.bubble-ai { align-items: flex-start; }
+.bubble-user { flex-direction: row-reverse; }
+
+.bubble-avatar {
+  width: 28px; height: 28px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 2px;
+}
+.bubble-ai .bubble-avatar { background: var(--accent-dim); border: 1px solid var(--accent); color: var(--accent); }
+.bubble-user .bubble-avatar { background: var(--bg-input); border: 1px solid var(--border-light); color: var(--text-secondary); }
+
+.bubble-content { max-width: 78%; }
+.bubble-text { padding: 9px 13px; border-radius: var(--radius); font-size: 14px; line-height: 1.6; white-space: pre-wrap; }
+.bubble-ai .bubble-text { background: var(--bg-card); border: 1px solid var(--border); color: var(--text-primary); border-top-left-radius: 3px; }
+.bubble-user .bubble-text { background: var(--accent); color: #0d1117; font-weight: 500; border-top-right-radius: 3px; }
+
+.bubble-time { display: block; font-size: 10px; color: var(--text-muted); margin-top: 3px; padding: 0 3px; }
+.bubble-user .bubble-time { text-align: right; }

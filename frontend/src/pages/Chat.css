@@ -1,0 +1,62 @@
+.chat-page { height: 100vh; display: flex; flex-direction: column; overflow: hidden; background: var(--bg-primary); }
+
+.chat-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 54px;
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.nav-logo { display: flex; align-items: center; gap: 10px; }
+.nav-logo-icon {
+  width: 32px; height: 32px;
+  background: var(--accent-dim);
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--accent);
+}
+.nav-logo-text { font-family: var(--font-display); font-size: 17px; font-weight: 700; color: var(--text-primary); }
+.nav-logo-badge {
+  display: inline-flex; align-items: center; gap: 3px;
+  font-size: 10px; font-weight: 700; color: var(--accent);
+  background: var(--accent-dim); border: 1px solid var(--accent);
+  padding: 2px 7px; border-radius: 99px; letter-spacing: 0.5px;
+}
+
+.nav-actions { display: flex; align-items: center; gap: 8px; }
+.nav-user {
+  font-size: 12px; color: var(--text-muted);
+  background: var(--bg-card); border: 1px solid var(--border);
+  padding: 4px 10px; border-radius: 99px; font-weight: 500;
+}
+
+.nav-cart-btn {
+  position: relative;
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: 8px; width: 34px; height: 34px;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--text-secondary); transition: all var(--transition);
+}
+.nav-cart-btn:hover { border-color: var(--accent); color: var(--accent); }
+.nav-cart-badge {
+  position: absolute; top: -5px; right: -5px;
+  background: var(--accent); color: #0d1117;
+  font-size: 10px; font-weight: 800;
+  width: 17px; height: 17px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+}
+
+.nav-logout-btn {
+  background: none; border: 1px solid var(--border);
+  border-radius: 8px; width: 34px; height: 34px;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--text-muted); transition: all var(--transition);
+}
+.nav-logout-btn:hover { border-color: var(--error); color: var(--error); }
+
+.chat-main { flex: 1; overflow: hidden; }
