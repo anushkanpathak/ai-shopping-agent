@@ -119,3 +119,8 @@ Open http://localhost:5173 in your browser.
 - 🛍️ Cart with add/remove/quantity management
 - 💳 Multi-step checkout (Cart → Shipping → Payment → Review → Success)
 - 🌙 Dark responsive UI
+
+## Contribution
+Anshumaan led backend API integration and deployment setup.
+Anushka led frontend UI development, testing, and project integration.
+Both contributors collaborated on architecture, debugging, and overall implementation.
