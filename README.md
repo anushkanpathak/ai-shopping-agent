@@ -3,6 +3,8 @@
 **AI-powered shopping assistant with conversational product discovery, smart recommendations, and seamless Shopify integration.**
 
 Built with React, Node.js/Express, Groq (Llama 3.1), Shopify Storefront API, and Firebase Auth.
+DEMO LINK-- https://drive.google.com/file/d/1mccKT4zl0iR-grW59kgQCkk9BgUlAQMi/view?usp=sharing
+LIVE WEBSITE LINK --https://ai-shopping-agent-1.onrender.com
 
 ---
 
